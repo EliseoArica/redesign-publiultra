@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web PubliUltra</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div>
+        <img class="nav_logo" src="/images/logo.svg" alt="logo" />
+      </div>
+      <ul class="nav_link">
+        <div class="nav_logos_menu">
+          <img class="nav_logo" src="/images/logo.svg" alt="logo" />
+          <img class="nav_close" src="/images/nav_close.svg" alt="logo_navclose" />
+          <img class="nav_logoweb" src="/images/logoweb.svg" alt="logoweb" />
+        </div>
+        <li class="nav_items">
+          <a class="nav_links" href="#">Inicio</a>
+        </li>
+        <li class="nav_items">
+          <a class="nav_links" href="#">Portafolio</a>
+        </li>
+        <li class="nav_items nav_items--show">
+          <a class="nav_links nav_links--servicio" href="#">Servicios</a>
+          <img class="servicios_show" src="/images/nav_servicios.svg" alt="servicios" />
+        </li>
+        <!-- Menu desplegable de Servicios -->
+        <li id='desktop' class="nav_items">
+          <ul class="list_show ocultar">
+            <li class="nav_items">
+              <a class="nav_links" href="#">Redes sociales</a>
+            </li>
+            <li class="nav_items">
+              <a class="nav_links" href="#">Diseño WEB</a>
+            </li>
+            <li class="nav_items">
+              <a class="nav_links" href="#">Publicidad</a>
+            </li>
+            <li class="nav_items">
+              <a class="nav_links" href="#">Branding</a>
+            </li>
+          </ul>
+        </li>
+        <!-- fin menu desplegable -->
+        <li class="nav_items">
+          <a class="nav_links" href="#">Conócenos</a>
+        </li>
+        <li class="nav_items">
+          <a class="nav_links" href="#">Contacto</a>
+        </li>
+
+        <div class="contacto">
+          <div>+51 941 922 589</div>
+          <div>hola@publiultra.com</div>
+        </div>
+      </ul>
+      <div class="nav_logos">
+        <h5 class="nav_menu">Menú</h5>
+        <img class="nav_img" src="/images/nav.svg" alt="logo_nav" />
+      </div>
+    </nav>
+  </header>
+
+  <section class="container main_container">
+    <div class="main_title">
+      <h2 class="title">¡EL DESPEGUE ES AHORA!</h2>
+    </div>
+    <div class="parrafo_buscabas">
+      <p class="buscabas">
+        Buscabas un aliado que impulse tus resultados?
+        Estás en el lugar correcto
+      </p>
+    </div>
+    <div class="img_cohete">
+      <img class="cohete" src="/images/astronauta_volando.png" alt="cohete" />
+    </div>
+    <div class="buttons">
+      <button class="botones">Ver trabajos</button>
+      <button class="botones">Empieza ahora</button>
+    </div>
+  </section>
+  <!-- <main class="fondo"></main> -->
+
+  <section class="hola">
+    <div>
+      <h1>hola</h1>
+    </div>
+  </section>
+  <script src="./js/desktop.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/servicios.js"></script>
+</body>
+
+</html>
