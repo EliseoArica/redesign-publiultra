@@ -1,0 +1,5 @@
+*.pug
+*.sass
+*.scss
+*.css.map
+components/*

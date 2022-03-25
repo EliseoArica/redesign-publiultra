@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  color: #182157;
+}
+
+.portafolio {
+  position: relative;
+  overflow: hidden;
+  height: minmax(1356px, max-content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(160.51deg, #455CB9 0%, #39B7B4 97.43%);
+}
+.portafolio .ellipse {
+  position: absolute;
+  width: 74.13%;
+  top: 137px;
+  right: 60.53%;
+  z-index: 10;
+}
+.portafolio .star {
+  position: absolute;
+  width: 25.33%;
+  z-index: 10;
+  top: 0.5%;
+  right: 0px;
+}
+.portafolio .star-thin {
+  position: absolute;
+  width: 13.33%;
+  z-index: 10;
+  left: 2.4%;
+  bottom: 93px;
+}
+.portafolio .rnd-rectangle {
+  position: absolute;
+  width: 60.27%;
+  z-index: 10;
+  bottom: -38px;
+  right: 0%;
+  transform: rotate(180deg);
+}
+.portafolio__title {
+  margin-top: 8rem;
+  color: #FFFFFF;
+  z-index: 20;
+}
+.portafolio__title h4 {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.portafolio__title h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 3.6rem;
+  font-style: normal;
+  margin-top: 0.3rem;
+  line-height: 4.32rem;
+  display: block;
+  text-align: center;
+}
+.portafolio__cards {
+  position: relative;
+  margin: 5.3rem 16px 4.5rem 16px;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(426px, 1fr));
+  grid-gap: 25px;
+}
+.portafolio__cards .card {
+  display: grid;
+  grid-template-rows: 1fr 87px;
+  grid-template-columns: minmax(286px, 500px);
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 9px;
+  overflow: hidden;
+  border: 1px solid #FFFFFF;
+}
+.portafolio__cards .card__img {
+  width: 100%;
+}
+.portafolio__cards .card__brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12px 0 58px;
+}
+.portafolio__cards .card__brand .brand__logo {
+  width: 64px;
+  margin-right: 16px;
+}
+.portafolio__cards .card__brand .brand__plan {
+  width: 14.8rem;
+  height: 3.9rem;
+}
+.portafolio__cards .card__brand .brand__plan h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.portafolio__cards .card__brand .brand__plan p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.portafolio a {
+  position: relative;
+  z-index: 20;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+  padding: 1.2rem 2.3rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.9rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
